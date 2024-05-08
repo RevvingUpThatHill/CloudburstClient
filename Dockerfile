@@ -1,4 +1,3 @@
-#!/bin/bash
 FROM lscr.io/linuxserver/code-server:latest
 COPY target/client-jar-with-dependencies.jar .
 RUN sudo apt-get update && \
